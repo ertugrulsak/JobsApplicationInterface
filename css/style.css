@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 100px;
+   width: 484px;
+    height: 887px;
+    background-color:#322E59;
+    border-radius: 60px;
+    padding: 70px;
+    box-shadow:-40px -40px 5px #1B183C;
+    
+}
+
+main{
+    color: #BCBACF;
+    max-width: 344px;
+    height: 524px;
+    width: 100%;
+    
+    
+    
+}
+
+
+.baslik{
+    min-width: 344px;
+    width: 100%;
+    height: 60px;
+   display:flex ;
+    
+
+    
+
+} 
+
+.filter{
+    width: 260px;
+    height: 60px;
+    font-size: 48px;
+    font-weight: bold;
+   
+
+}
+
+.exit{
+    width: 44px;
+    height: 44px;
+    margin-left: 40px;
+    color: #BCBACF;
+   
+    
+    
+}
+
+
+.search{
+    width: 344px;
+    height: 96px;
+    margin-top: 40px;
+    
+}
+
+.konu{
+    width: 190px;
+    height: 20px;
+    font-size: 16px;
+    font-weight:bold;
+    
+
+}
+
+.arama{
+    width: 344px;
+    height: 68px;
+    display: flex;
+    background-color: #232044;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+    
+}
+
+.text{
+    background-color: #232044;
+
+    display: flex;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    &:focus{
+        outline: 0;
+    }
+    color: white;
+}
+
+.buyutec{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    margin-right: 16px;
+    
+}
+
+ul{
+    width: 200px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+   
+}
+
+
+li img{
+    width: 38px;
+    height: 38px;
+    margin-right: 20px;
+    
+}
+
+.view{
+    width: 44px;
+    height: 20px;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.choose{
+    width: 200px;
+    height: 174px;
+    margin-top: 40px;
+}
+
+
+.alt{
+    width: 224px;
+    height: 74px;
+    
+}
+
+.include{
+    font-size: 16px;
+    font-weight:bold;
+    margin-top: 40px;
+    display: flex;
+
+}
+.kisim{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    
+}
+
+.tick{
+    width: 38px;
+    height: 38px;
+    
+}
+
+.jobs{
+    font-size: 18px;
+    font-size: bold;
+    margin-left: 20px;
+}
+
+
+footer{
+    margin-top: 126px;
+}
+
+.save{
+    width: 344px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: #FFBB56;
+    font-size: 18px;
+    
+}
