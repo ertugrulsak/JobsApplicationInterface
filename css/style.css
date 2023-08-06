@@ -17,10 +17,33 @@
 }
 .apply-job{
      display: none; 
-   
-
+     
    
 } 
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    transition: 600ms background-color ease-in;
+
+    &:hover{
+        background-color: brown;
+        color: beige;
+    
+    }
+}
+
+
 .apply-job:checked {
         &:checked + .container{
             opacity: 0;
